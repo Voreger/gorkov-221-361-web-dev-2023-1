@@ -7,31 +7,40 @@
     font-weight: bold;
     margin-bottom: 5px;
 }
-body div{
+
+body div {
     color: aliceblue;
 }
-body{
+
+body {
     font-family: 'Ubuntu', sans-serif;
 }
-.body-form{
+
+.body-form {
     text-align: center;
     font-size: 25px;
     background-image: url(../images/background.jpg);
 }
-.body-auth{
+
+.body-auth {
     text-align: center;
     font-size: 25px;
     background-image: url(../images/backgroundAuth.jpg);
-    background-size:cover;
+    background-size: cover;
 }
-h1{
+
+h1 {
     font-size: 45px;
     color: aliceblue;
 }
-input, textarea, select{
+
+input,
+textarea,
+select {
     font-size: inherit;
 }
-.btn{
+
+.btn {
     display: block;
     height: 40px;
     width: 150px;
@@ -39,7 +48,7 @@ input, textarea, select{
     border: 1px solid aquamarine;
     border-radius: 5px;
     font-size: 20px;
-    color:azure;
+    color: azure;
     font-weight: bold;
     margin: 0 auto;
 }
