@@ -29,7 +29,7 @@
                 <a class="title">Моя страница</a>
                 <a href="<?php
                     $name='Аутентификация';
-                    $link='https://voreger.github.io/gorkov-221-361-web-dev-2023-1/lab2/authentification.html';
+                    $link='authentification.php';
                     $current_page=false;
                     echo $link;
                     
@@ -44,7 +44,7 @@
 
                 <a href="<?php
                     $name='Обратная связь';
-                    $link='https://voreger.github.io/gorkov-221-361-web-dev-2023-1/lab2/index.html';
+                    $link='feedbackForm.php';
                     $current_page=false;
                     echo $link;
                     
