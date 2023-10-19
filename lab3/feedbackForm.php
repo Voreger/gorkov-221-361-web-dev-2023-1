@@ -50,7 +50,7 @@
 
                 <a href="<?php
                     $name='Главная';
-                    $link='https://voreger.github.io/gorkov-221-361-web-dev-2023-1/lab1/index.html';
+                    $link='index.php';
                     $current_page=false;
                     echo $link;
                     
