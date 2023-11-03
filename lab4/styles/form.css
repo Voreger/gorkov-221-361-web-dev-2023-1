@@ -126,3 +126,9 @@ footer p {
     background-size: cover;
 
 }
+
+img.image1 {
+    width: 700px;
+    margin: 5px 20%;
+}
+

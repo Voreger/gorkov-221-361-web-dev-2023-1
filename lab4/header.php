@@ -37,7 +37,7 @@
 
                 <a href="<?php
                 $name = 'Обратная связь';
-                // $link = 'feedbackForm.php';
+                $link = 'index.php';
                 $current_page = true;
                 echo $link;
 
@@ -54,7 +54,7 @@
 
                 <a href="<?php
                 $name = 'Главная';
-                // $link = 'index.php';
+                $link = 'dbconnect.php';
                 $current_page = false;
                 echo $link;
 
