@@ -13,6 +13,9 @@
         define('DB_USER', 'o916328q_lab'); //Имя пользователя
         define('DB_PASSWORD', 'Root111111'); //Пароль
         define('DB_NAME', 'o916328q_lab'); //Имя БД
+        if ($connection->connect_error) { 
+            die("Connection failed"); 
+        }
         $mysql = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
         ?>
         <?php
