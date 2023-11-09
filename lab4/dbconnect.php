@@ -13,10 +13,10 @@
         define('DB_USER', 'o916328q_lab'); //Имя пользователя
         define('DB_PASSWORD', 'Root11111'); //Пароль  добавить единицу в конце для успешного подключения к бд
         define('DB_NAME', 'o916328q_lab'); //Имя БД
-        if ($connection->connect_error) { 
-            echo "Connection failed"; 
-        }
         $mysql = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+        if ($mysql->connect_error) { 
+            die("Connection failed"); 
+        }
         ?>
         <?php
         include "db.php";
