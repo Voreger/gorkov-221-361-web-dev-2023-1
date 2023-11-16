@@ -120,7 +120,7 @@ function evaluate(str) {
         
     }
     
-    return result[0];
+    return Number(result[0]).toFixed(2);
 }
 
 // Функция clickHandler предназначена для обработки 
