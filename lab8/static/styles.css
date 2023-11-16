@@ -139,6 +139,11 @@ body {
 
 .autocomplete {
     padding: 5px;
+    cursor: pointer;
+}
+
+.autocomplete:hover{
+    background-color:lightgray;
 }
 
 
