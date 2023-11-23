@@ -1,0 +1,259 @@
+body div {
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(174, 211, 74);
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.navigation {
+    color: white;
+}
+
+.selected_menu {
+    color: aqua;
+}
+
+.main-menu {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.main-menu a {
+    text-decoration: none;
+    margin-right: 20px;
+    vertical-align: super;
+    color: whitesmoke;
+}
+
+.mail {
+    text-align: center;
+    padding-top: 2px;
+}
+
+.mail a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation:hover {
+    transition: color 0.5;
+    color: chartreuse;
+}
+
+.bton:hover {
+    transition: border-color 0.5s, background-color 0.5s;
+    border-color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.bton {
+    text-decoration: none;
+    color:aliceblue;
+    display: inline-block;
+    font-weight: bold;
+    border: 2px solid azure;
+    background-color: rgb(165, 164, 164);
+    border-radius: 10px;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+
+input,
+textarea,
+select {
+    font-size: inherit;
+}
+
+.btn {
+    display: block;
+    height: 40px;
+    width: 150px;
+    background-color: blue;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-size: 20px;
+    color: azure;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: rgb(174, 211, 74);
+    margin-top: 10px;
+}
+
+footer p {
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photo{
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    border:0;
+    background: transparent;
+}
+.menu{
+    margin: 0px auto;
+}
+
+.flexarea{
+    display: flex;
+    flex-direction: column;
+}
+
+.point-title{
+    margin: 5px 5px;
+    color: gold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.point{
+    margin: 30px 50px;
+    width: 520px;
+    background-color: rgb(168, 168, 168);
+    border-color: goldenrod;
+    border-width: 20px;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+div#point1{
+    align-items: flex-start;
+}
+
+div#point2{
+    align-self: flex-end;
+}
+
+.photo-point img{
+    height: 240px;
+}
+
+.flex-point{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+
+.search-form {
+    margin: 40px 0;
+    display: flex;
+    max-width: 55%;
+}
+
+.search-field {
+    flex-grow: 1;
+    height: 40px;
+    border: hidden;
+    box-sizing: border-box;
+    padding: 0 20px;
+    font-size: 100%;
+    outline: none;
+}
+
+.searching{
+    flex-grow: 1;
+    border: 5px solid rgb(174, 211, 74);
+    font-size: 100%;
+    outline: none;
+    flex-direction: column;
+    background-color:white;
+}
+
+.pagination-info {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+.current-interval-info {
+    margin-left: auto;
+}
+
+.per-page-btn {
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    height: 40px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(194, 194, 194);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.pcImage{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.productText{
+    display: flex;
+    flex-direction: column;
+}
+
+.pcName{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.pcDescription{
+    text-align: left;
+    margin: 5px 5px;
+}
+
+.anotherInf{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonPc{
+    background-color: rgb(174, 211, 74);
+
+}
+
+.price{
+    font-weight: bold;
+}
