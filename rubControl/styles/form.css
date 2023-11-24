@@ -251,9 +251,50 @@ div#point2{
 
 .buttonPc{
     background-color: rgb(174, 211, 74);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px 30px;
+    text-decoration: none;
+    color:black;
+}
 
+.pay{
+    background-color: rgb(174, 211, 74);
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 5px 30px;
+    text-decoration: none;
+    color:black;
 }
 
 .price{
     font-weight: bold;
+}
+
+.nothing{
+    font-size: xx-large;
+    margin:20px 20px;
+}
+
+.pcFullDescription{
+    text-align: left;
+    margin: 5px 5px;
+    font-size: medium;
+}
+
+.fullProduct{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(194, 194, 194);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.pcNameFull{
+    align-self: center;
+}
+
+.picName{
+    display: flex;
+    flex-direction: row;
 }

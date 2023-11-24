@@ -2,6 +2,7 @@
     <?php
     require "header.php";
     ?>
+    <script src="script/main.js"></script>
     <div class="container">
 
         <?php
@@ -16,15 +17,19 @@
         ?>
         <?php
         include "db.php";
-        $result1 = mysqli_query($mysql, "SELECT * FROM `pc`");
         ?>
-        <div class="box">
+        <p>
             <?php
-            while ($name1 = mysqli_fetch_assoc($result1)) {
-                ?>
+            if (empty($_GET)) {
+                ?> <p class="nothing"> <?php echo "Тут пока ничего нет"; ?></p>
+            <?php
+            } else {
+                $result1 = mysqli_query($mysql, "SELECT * FROM `pc` WHERE `id` like({$_GET['PCName']})");
+                while ($name1 = mysqli_fetch_assoc($result1)) {
+                    ?>
+
                 <div class="product">
-                    <img class="pcImage" title="<?php echo $name1['name']; ?>"
-                        src="images/<?php echo $name1['imgName']; ?>">
+                    <img class="pcImage" title="<?php echo $name1['name']; ?>" src="images/<?php echo $name1['imgName']; ?>">
                     <div class="productText">
                         <p class="pcName">
                             <?php echo $name1['name'] ?>
@@ -36,17 +41,18 @@
                             <p class="price">
                                 <?php echo $name1['price'] ?>₽
                             </p>
-                            <a href="product.php?PCName=<?php echo $name1['id']?>" class="buttonPc">Подробнее</a>
-                            <a href="cart.php?PCName=<?php echo $name1['id']?>" class="buttonPc">Купить</a>
+                            
+                            <a class="pay" href="cart.php" >Оплатить</a>
                         </div>
                     </div>
                 </div>
                 <?php
+                }
+                ?>
+            <?php
             }
             ?>
-        </div>
-
-    </div>
+        </p>
     </div>
     <?php
     require "footer.php";

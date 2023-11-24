@@ -19,7 +19,9 @@
                     <a href="index.php">Главная</a>
                     <a href="shop.php">Магазин</a>
                 </div>
-                <img src="images/cart.png" alt="Корзина" class="photo">
+                <a href="cart.php">
+                    <img src="images/cart.png" alt="Корзина" class="photo" href="cart.php">
+                </a>
             </nav>
         </div>
     </header>
