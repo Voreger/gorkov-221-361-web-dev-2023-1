@@ -26,7 +26,7 @@
 
             <div class="fullProduct">
                 <div class="picName">
-                    <img class="pcImage" title="<?php echo $name1['name']; ?>" src="images/<?php echo $name1['imgName']; ?>">
+                    <img class="pcFullImage" title="<?php echo $name1['name']; ?>" src="images/<?php echo $name1['imgName']; ?>">
                     <p class="pcNameFull">
                         <?php echo $name1['name'] ?>
                     </p>
