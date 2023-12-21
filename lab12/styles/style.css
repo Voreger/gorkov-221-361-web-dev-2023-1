@@ -1,0 +1,19 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+}
+
+.row1{
+    background-color: #0b55c4;
+    padding-top: 2rem;
+}
+.row2{
+    background-color: #f0f0f1;
+    color: black;
+}
+.text{
+    align-items:center;
+}
+footer{
+    color: grey;
+}
