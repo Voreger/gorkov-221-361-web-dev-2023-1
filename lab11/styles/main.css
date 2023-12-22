@@ -70,6 +70,8 @@ select {
 .footer {
     background-color: rgb(0, 0, 0);
     margin-top: 10px;
+    color:grey;
+    text-align: center;
 }
 
 footer p {
@@ -96,8 +98,47 @@ a{
 }
 
 
-a.”selected” {
-    color: aqua;
+.selected {
+    color: aqua ; 
+    font-weight: bolder;
 }
-.”product_menu”{
+
+.ttRow {
+    border: #A63E00 2px solid;
+    margin: 30px;
+    padding: 15px;
+}
+
+.ttSingleRow {
+    border: #A63E00 2px solid;
+    margin: 30px;
+    font-size: 32px;
+}
+
+.mult {
+    margin: auto;
+    max-width: 1300px;
+    margin-left: 40px;
+}
+
+.product_menu_class {
+    margin-left: 40px;
+}
+
+.line {
+    display: inline-block;
+}
+
+td {
+    padding: 5px;
+}
+
+.table {
+    margin-bottom: 20px;
+    float:left;
+    margin-right: 20px;
+}
+
+.choosed {
+    font-size: 32px;
 }
