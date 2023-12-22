@@ -5,7 +5,7 @@ body{
 
 .row1{
     background-color: #0b55c4;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .row2{
     background-color: #f0f0f1;
@@ -16,4 +16,8 @@ body{
 }
 footer{
     color: grey;
+}
+.row{
+    margin-right: 0;
+    margin-left: 0;
 }
