@@ -126,7 +126,8 @@ a{
 }
 
 .line {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
 
 td {
